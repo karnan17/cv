@@ -4,32 +4,45 @@
 	<title>My Website</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="style.css" href="">
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 	<header>
 		<h1>Welcome to My Website</h1>
 	</header>
+    <div>
 	<nav>
 		<a href="#">Home</a>
-		<a href="#">About Us</a>
-		<a href="#">Contact Us</a>
+		<a href="about.html">About Us</a>
+		<a href="contact.html">Contact Us</a>
 	</nav>
+    
 	<main>
-		<h2>About Us</h2>
-		<p>We are a small company that provides web development services to clients around the world.</p>
-		<h2>Contact Us</h2>
-		<p>If you have any questions or would like to request a quote, please fill out the form below:</p>
-		<form>
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name"><br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email"><br>
-			<label for="message">Message:</label>
-			<textarea id="message" name="message"></textarea><br>
-			<input type="submit" value="Send">
-		</form>
+		<table>
+            <h1 id="test1"><strong>Profile</strong></h1>
+                <tr>
+                    <td><img src="https://img.freepik.com/free-vector/man-shows-gesture-great-idea_10045-637.jpg" alt="no image"width="170" height="180"></td>            
+                    <td class="test first"><em><strong>"Be a Professional"</strong></em></td>
+                </tr>
+                <tr>
+                   <td>
+                     <ul></ul>
+                        <li><strong>Ethical Hacker</strong></li>
+                        <li><strong>Graphics Designer</strong></li>
+                        <li><strong>Digital Marketer</strong></li>
+                        <li><strong>Cybersecurity Analyst<strong></li>
+                        <li><strong>Blockchain developer</strong></li>
+                        <li><strong>Web developer</strong></li>
+                        <li><strong>Android developer</strong></li>
+                        <li><strong>Data Scientist</strong></li>
+                        <li><strong>Bug Hunter</strong></li>
+                     </td>
+                </tr>           
+        </table>	
+
+        <hr>
 	</main>
+</div> 
 	<footer>
 		<p>&copy; 2023 My Website. All rights reserved.</p>
 	</footer>
